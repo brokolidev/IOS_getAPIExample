@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAB74910244AFBFB00D90A3E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7490F244AFBFB00D90A3E /* Data.swift */; };
+		EAB74912244AFEF600D90A3E /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB74911244AFEF600D90A3E /* PostList.swift */; };
 		EAFD0DDC2449EA4E0071EAB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFD0DDB2449EA4E0071EAB0 /* AppDelegate.swift */; };
 		EAFD0DDE2449EA4E0071EAB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFD0DDD2449EA4E0071EAB0 /* SceneDelegate.swift */; };
 		EAFD0DE02449EA4E0071EAB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFD0DDF2449EA4E0071EAB0 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EAB7490F244AFBFB00D90A3E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EAB74911244AFEF600D90A3E /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		EAFD0DD82449EA4E0071EAB0 /* getAPIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getAPIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFD0DDB2449EA4E0071EAB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAFD0DDD2449EA4E0071EAB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				EAFD0DE62449EA4F0071EAB0 /* LaunchScreen.storyboard */,
 				EAFD0DE92449EA4F0071EAB0 /* Info.plist */,
 				EAFD0DE32449EA4F0071EAB0 /* Preview Content */,
+				EAB7490F244AFBFB00D90A3E /* Data.swift */,
+				EAB74911244AFEF600D90A3E /* PostList.swift */,
 			);
 			path = getAPIExample;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAFD0DDC2449EA4E0071EAB0 /* AppDelegate.swift in Sources */,
+				EAB74912244AFEF600D90A3E /* PostList.swift in Sources */,
 				EAFD0DDE2449EA4E0071EAB0 /* SceneDelegate.swift in Sources */,
 				EAFD0DE02449EA4E0071EAB0 /* ContentView.swift in Sources */,
+				EAB74910244AFBFB00D90A3E /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
